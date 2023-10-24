@@ -1,0 +1,371 @@
+@media only screen and (max-width: 900px) {
+    section {
+        width: 99%;
+        min-height: 74vh;
+        padding: 0rem 2rem;
+    }
+    .navbar {
+        padding: 0.5rem 1rem 0 4rem;
+    }
+    .header-content .left-header .image img {
+        width: 120%;
+        margin: 36rem 4rem -4rem 16rem;
+    }
+    .header-content .right-header {
+        margin: -12rem 0rem 4rem -6rem;
+    }
+    .theme-btn {
+        width: 60px;
+        height: 60px;
+    }
+    .about .content .left .img-card img {
+        height: 313px;
+        width: 312px;
+    }
+    .quali {
+        padding: 1rem 1.5rem;
+        margin-left: 0.5rem;
+    }
+    .portfolio {
+        justify-content: center;
+        align-items: center;
+    }
+    .portfolio-item {
+        width: 242px;
+    }
+    .contact {
+        justify-content: center;
+    }
+    .right-contact {
+        width: 416px;
+    }
+    .contact .left-contact .contact-info .contact-item {
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    section {
+        width: 99%;
+        min-height: 74vh;
+        align-items: center;
+    }
+    .heading {
+        font-size: 3rem;
+        margin-left: 3rem;
+        align-items: center;
+        display: flex;
+    }
+    .header-content .right-header {
+        margin: -10rem 8rem 5rem -5rem;
+    }
+    .header-content .left-header .image img {
+        margin: 41rem 4rem 0rem 15rem;
+    }
+    .btn-con {
+        width: 451px;
+    }
+    .main-btn .btn-icon {
+        padding: 0.8rem;
+    }
+    .header-content .right-header .shape {
+        width: 100%;
+        left: 6rem;
+        opacity: 0;
+        clip-path: polygon(10% 50%, 100% 200%, 100% 20%, 60% 55%);
+    }
+    .item {
+        width: 187px;
+    }
+    .about {
+        align-items: center;
+        margin: 0;
+    }
+    .about1 {
+        margin: 5rem -5rem 3rem 5rem;
+    }
+    .skill-bar {
+        width: 260px;
+    }
+    #portfolio {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .portfolio {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .portfolio .portfolio-item img {
+        height: 250px;
+    }
+    .portfolio-item {
+        width: 130%;
+        margin: 2rem;
+    }
+    .contact {
+        justify-content: center;
+        display: flex;
+        margin: 5rem;
+    }
+    .right-contact {
+        width: 416px;
+    }
+    .contact .left-contact .contact-info .contact-item {
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    html {
+        width: 1000px;
+    }
+    .main-content {
+        width: 300vw;
+    }
+    .scroll i {
+        font-size: 5.8rem;
+        padding: 1.2rem 1.7rem;
+    }
+    .header-content {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .name {
+        width: 900px;
+    }
+    .header-content .right-header .name {
+        font-size: 6rem;
+    }
+    .header-content .right-header p {
+        font-size: 4rem;
+        /* margin: 3rem; */
+    }
+    .header-content .right-header p {
+        margin: 1.5rem 0;
+        line-height: 6rem;
+    }
+    .header-content .right-header .shape {
+        left: 45rem;
+    }
+    .heading {
+        font-size: 8rem;
+        margin-left: 3rem;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .header-content .right-header {
+        margin: -24rem 0rem 10rem 14rem;
+        width: 100%;
+    }
+    .header-content .left-header .image img {
+        margin: 12rem -6rem 23rem 15rem;
+    }
+    .btn-con {
+        width: 100%;
+    }
+    .flex {
+        display: flex;
+        flex-direction: column;
+    }
+    #first-btn {
+        width: 520px;
+        margin: .5rem;
+    }
+    #second-btn {
+        width: 500px;
+        margin: .5rem;
+    }
+    .btn-text {
+        font-size: 3rem;
+        padding: 1rem;
+    }
+    .btn-icon {
+        font-size: 3rem;
+    }
+    .btn-icon i {
+        padding: 1rem;
+    }
+    .content {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .about .content .left .img-card img {
+        height: 684px;
+        width: 662px;
+    }
+    .about .content .left .img-card {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        width: 104%;
+        height: 100vh;
+        margin: 3rem 13rem 2rem 10rem;
+    }
+    .about .content .left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .about .content .right .content-title {
+        font-size: 5em;
+        font-weight: 800;
+    }
+    .reveal {
+        margin: 3rem;
+    }
+    .about .content .right .paragraph-text {
+        font-size: 3em;
+    }
+    info .about-info-right div {
+        margin-bottom: 6rem;
+        padding-bottom: 1.5rem;
+    }
+    .about .content .about-info h4 {
+        font-size: 3.5rem;
+        padding: 0.5rem;
+    }
+    .about .content .about-info p {
+        font-size: 3rem;
+        padding: 0.9rem;
+    }
+    .flex {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .quali {
+        width: 100%;
+        margin: 2rem;
+        padding: 3rem;
+    }
+    .item {
+        width: 100%;
+    }
+    .quali .item h1 {
+        font-size: 4rem;
+    }
+    .quali .item .year {
+        font-size: 55px;
+        letter-spacing: 0.23em;
+    }
+    .quali .item h3 {
+        font-size: 4rem;
+    }
+    .quali .item p {
+        font-size: 4rem;
+    }
+    .quali .item::after {
+        width: 16px;
+        height: 17px;
+    }
+    /* .skill{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+  } */
+    .about .skill .skill-bar .prog-title {
+        font-size: 4rem;
+    }
+    .skill-bar {
+        width: 390px;
+        font-size: 3rem;
+    }
+    .about .skill .skill-bar .progress-con .progress {
+        height: 0.8rem;
+        margin-left: 2rem;
+    }
+    .portfolio .portfolio-item img {
+        height: 389px;
+    }
+    .portfolio-item {
+        width: 133%;
+        margin: 2rem;
+    }
+    /* .items {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      margin-left: 5rem;
+    } */
+    .portfolio .portfolio-item img {
+        height: 403px;
+        width: 841px;
+    }
+    .contact-container {
+        margin: 0 0rem 1rem 0rem;
+    }
+    .contact {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .left-contact {
+        width: 800px;
+    }
+    .contact .left-contact h4 {
+        margin-top: 1rem;
+        font-size: 5rem;
+        text-transform: uppercase;
+    }
+    .contact .left-contact p {
+        line-height: 5rem;
+        font-size: 3.2rem;
+    }
+    .contact .left-contact .contact-info .contact-item .icon {
+        font-size: 3rem;
+    }
+    .contact .left-contact .contact-info .contact-item {
+        width: 900px;
+    }
+    .contact .left-contact .contact-info .contact-item .icon i {
+        font-size: 3.3rem;
+        padding: 4rem;
+    }
+    .contact .left-contact .contact-icon a i {
+        font-size: 4.3rem;
+    }
+    .contact .left-contact .contact-icon a {
+        margin: 0px 1.4rem;
+    }
+    .contact .right-contact {
+        margin-left: 0rem;
+        margin-top: 2rem;
+    }
+    .contact .right-contact .input-control {
+        margin: 3.5rem 0px;
+    }
+    .contact .right-contact .input-control input,
+    .contact .right-contact .input-control textarea {
+        font-size: 2.5rem;
+        padding: 1.8rem 2.1rem;
+    }
+    .sub {
+        padding: 1.7rem;
+        width: 798px;
+        font-size: 3.2rem;
+    }
+    .footer .footer-image {
+        width: 22em;
+    }
+    .devby {
+        font-size: 4rem;
+    }
+    .quick-links a {
+        font-size: 2.5rem;
+    }
+    .policy p {
+        font-size: 2.8rem;
+    }
+    .terms {
+        font-size: 4rem;
+    }
+    .terms span {
+        font-size: 4rem;
+    }
+}
